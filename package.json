@@ -10,7 +10,7 @@
     "fs:delete": "node src/fs/delete.js",
     "fs:rename": "node src/fs/rename.js",
     "fs:list": "node src/fs/list.js",
-    "cli:env": "node src/cli/env.js",
+    "cli:env": "RSS_name1=value1 RSS_name2=value2 node src/cli/env.js",
     "cli:args": "node src/cli/args.js --propName value --prop2Name value2",
     "modules:cjsToEsm": "node src/modules/cjsToEsm.mjs",
     "hash:calcHash": "node src/hash/calcHash.js",
@@ -19,7 +19,6 @@
     "streams:transform": "node src/streams/transform.js",
     "zip:compress": "node src/zip/compress.js",
     "zip:decompress": "node src/zip/decompress.js"
-
   },
   "repository": {
     "type": "git",
@@ -35,8 +34,5 @@
   "bugs": {
     "url": "https://github.com/AlreadyBored/node-nodejs-basics/issues"
   },
-  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme",
-  "dependencies": {
-    "dotenv": "^16.0.1"
-  }
+  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme"
 }

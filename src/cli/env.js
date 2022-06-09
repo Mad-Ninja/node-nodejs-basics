@@ -1,6 +1,5 @@
 import process from 'process';
-import { config } from 'dotenv';
-config();
+
 export const parseEnv = () => {
  
     const envVariables = process.env
